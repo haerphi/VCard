@@ -1,0 +1,28 @@
+#idContainer{ /* center la carte de visite */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#vcard{
+    display: flex;
+    border: 1px solid black;
+    width: 25em;
+    height: 10em;
+}
+
+#photo{
+    width: 100px;
+	height: auto;
+    margin-right: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 25px;
+}
+body{
+    background-image: linear-gradient(red, white);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
